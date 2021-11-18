@@ -4,7 +4,10 @@
 
 [*sed*](https://linux.die.net/man/1/sed) and [*awk*](https://linux.die.net/man/1/awk) are two commonly used tools in Unix operating systems, and are also typically used together.
 
-*sed*, or the stream editor is a tool used for editing streams of text that might be too large to edit as a single file, or that might be generated on the fly as part of a larger data processing step. awk is a "data driven" program – you specify what kind of data you are interested in and the operations to be performed when that data is found. awk does many things, including automatically opening and closing data files, reading records, breaking the records up into fields, and counting the records. While awk provides the features of most conventional programming languages, it also includes some unconventional features, such as extended regular expression matching and associative arrays.
+(The following descriptions stolen from [Stack Overflow](https://stackoverflow.com/questions/1632113/what-is-the-difference-between-sed-and-awk))
+> *sed* is a stream editor. It works with streams of characters on a per-line basis. It has a primitive programming language that includes goto-style loops and simple conditionals (in addition to pattern matching and address matching). There are essentially only two "variables": pattern space and hold space.
+> 
+> *awk* is oriented toward delimited fields on a per-line basis. It has much more robust programming constructs including if/else, while, do/while and for (C-style and array iteration). There is complete support for variables and single-dimension associative arrays plus (IMO) kludgey multi-dimension arrays. Mathematical operations resemble those in C.
 
 For this assignment, you will undertake five programming challenges using sed and awk. The challenges are listed on the website [HackerRank](https://www.hackerrank.com). The challenges are listed below, and are worth 10 points each:  
 
