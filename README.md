@@ -2,7 +2,7 @@
 
 ## Assignment Description
 
-*sed* and *awk* are two commonly used tools in Unix operating systems, and are also typically used together.
+[*sed*](https://linux.die.net/man/1/sed) and [*awk*](https://linux.die.net/man/1/awk) are two commonly used tools in Unix operating systems, and are also typically used together.
 
 *sed*, or the stream editor is a tool used for editing streams of text that might be too large to edit as a single file, or that might be generated on the fly as part of a larger data processing step. awk is a "data driven" program – you specify what kind of data you are interested in and the operations to be performed when that data is found. awk does many things, including automatically opening and closing data files, reading records, breaking the records up into fields, and counting the records. While awk provides the features of most conventional programming languages, it also includes some unconventional features, such as extended regular expression matching and associative arrays.
 
