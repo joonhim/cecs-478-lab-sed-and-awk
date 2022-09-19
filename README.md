@@ -1,4 +1,4 @@
-# CECS 478 Lab 1: sed and awk
+# CECS 478 Lab: sed and awk
 
 ## Assignment Description
 
