@@ -4,7 +4,7 @@
 
 [*sed*](https://linux.die.net/man/1/sed) and [*awk*](https://linux.die.net/man/1/awk) are two commonly used tools in Unix operating systems, and are also typically used together.
 
-(The following descriptions stolen from [Stack Overflow](https://stackoverflow.com/questions/1632113/what-is-the-difference-between-sed-and-awk))
+(The following descriptions have been taken from [Stack Overflow](https://stackoverflow.com/questions/1632113/what-is-the-difference-between-sed-and-awk))
 > *sed* is a stream editor. It works with streams of characters on a per-line basis. It has a primitive programming language that includes goto-style loops and simple conditionals (in addition to pattern matching and address matching). There are essentially only two "variables": pattern space and hold space.
 > 
 > *awk* is oriented toward delimited fields on a per-line basis. It has much more robust programming constructs including if/else, while, do/while and for (C-style and array iteration). There is complete support for variables and single-dimension associative arrays plus (IMO) kludgey multi-dimension arrays. Mathematical operations resemble those in C.
